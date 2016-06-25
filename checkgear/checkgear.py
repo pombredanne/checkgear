@@ -3,4 +3,7 @@
  
 class CheckGear():
     def __init__(self):
+        pass
+
+    def proc(self):
         print 'test'
