@@ -1,17 +1,20 @@
 #!/usr/bin/env python
 # coding: utf-8
 from setuptools import setup, find_packages
-from checkgear import __author__, __version__, __license__
  
 setup(
         name             = 'checkgear',
-        version          = __version__,
+        version          = '0.0.1',
         description      = 'Library Vulnerability Checker from CVE.',
-        license          = __license__,
-        author           = __author__,
+        long_description = '[command]$checkgear'
+        classifiers      = [
+                           'Topic :: Security',
+                           ]
+        license          = 'MIT',
+        author           = 'Sou Komatsu',
         author_email     = 'sou.komatsu@gmail.com',
         url              = 'https://github.com/sou-komatsu/checkgear',
-        keywords         = 'python',
+        keywords         = ['python','security','cve'].
         packages         = find_packages(),
         install_requires = [],
         entry_points ="""
